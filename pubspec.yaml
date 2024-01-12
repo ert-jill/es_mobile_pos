@@ -1,0 +1,89 @@
+name: pos
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  flutter_login_facebook: ^1.9.0
+  smooth_page_indicator: ^1.0.0+2
+  intl: ^0.17.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Gilroy
+      fonts: 
+        - asset: assets/fonts/GilroyMedium.ttf
+          weight: 500
+        - asset: assets/fonts/GilroySemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/GilroyRegular.ttf
+          weight: 400
+        - asset: assets/fonts/GilroyBold.ttf
+          weight: 700
+        - asset: assets/fonts/GilroyRegularItalic.ttf
+          weight: 400
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+        - asset: assets/fonts/InterMedium.ttf
+          weight: 500
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoBlack.ttf
+          weight: 900
+        - asset: assets/fonts/RobotoRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoRomanSemiBold.ttf
+          weight: 600
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/MontserratMedium.ttf
+          weight: 500
+    - family: Rubik
+      fonts: 
+        - asset: assets/fonts/RubikMedium.ttf
+          weight: 500
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+    - family: SF Pro Text
+      fonts: 
+        - asset: assets/fonts/SFProTextRegular.ttf
+          weight: 400
+        - asset: assets/fonts/SFProTextBold.ttf
+          weight: 700
+    - family: Sarala
+      fonts: 
+        - asset: assets/fonts/SaralaBold.ttf
+          weight: 700
+    - family: Helvetica Neue
+      fonts: 
+        - asset: assets/fonts/HelveticaNeue.ttf
+          weight: 400
+    - family: Open Sans
+      fonts: 
+        - asset: assets/fonts/OpenSansRomanRegular.ttf
+          weight: 400
+    - family: Josefin Sans
+      fonts: 
+        - asset: assets/fonts/JosefinSansRegular.ttf
+          weight: 400
